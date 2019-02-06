@@ -1,0 +1,101 @@
+@font-face {
+    font-family: digital;
+    src: url(digital.ttf);
+}
+    .center-screen {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.buttonBox{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.clacBody{
+
+    width: 600px;
+    height: 1100px;
+    color: #1a3943;
+    background: lightseagreen;
+    border: lightblue;
+    border-width: 10px;
+    border-style: solid;
+    text-align: right;
+    font-size: 25px;
+
+}
+
+
+@media only screen
+and (max-device-width: 600px)
+{
+
+    .clacBody{
+        width: 100%;
+        height: 100%;
+        color: #1a3943;
+        background: lightseagreene;
+        border: lightblue;
+        border-width: 10px;
+        border-style: solid;
+        text-align: right;
+        font-size: 25px;
+
+    }
+
+
+}
+
+
+
+
+.answerBox{
+    background-color: seashell;
+    width: 600px;
+    height: 150px;
+    border-color: lightblue;
+    border-style: solid;
+    text-align: right;
+    color: black;
+    font-size: 100px;
+    border-radius: 80px;
+    border-width: 10px;
+    font-family: digital;
+}
+
+
+.cbutton{
+    background-color: lightblue;
+    width: 290px;
+    height: 140px;
+    border-color: seashell;
+    border-style: solid;
+    text-align: right;
+    color: black;
+    font-size: 80px;
+    border-radius: 30px;
+    border-width: 10px;
+
+}
+
+
+.regularbutton{
+    width: 145px;
+    height: 140px;
+    border-color: lightblue;
+    border-style: solid;
+    text-align: right;
+    color: black;
+    font-size: 80px;
+    border-radius: 30px;
+    background-color: seashell;
+    border-width: 10px;
+}
+.regularbutton:hover {
+    background-color: lightyellow;
+}
+.cbutton:hover {
+    background-color: #95cded;
+}
