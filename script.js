@@ -12,9 +12,13 @@ function calculator(clicked) {
 
         }
         if(clicked ==="C"){
-            console.error("we are in here")
             if(!answerValue) document.getElementById("answer").textContent = "";
-            document.getElementById("answer").textContent = answerValue.substring(0, answerValue.length - 1); // "12345.0"
+            if(answerValue==="Error") document.getElementById("answer").textContent = "";
+
+            else{
+                document.getElementById("answer").textContent = answerValue.substring(0, answerValue.length - 1); // "12345.0"
+
+            }
 
         }
 
