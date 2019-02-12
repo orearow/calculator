@@ -1,13 +1,7 @@
 var shouldClear = false;
 
-function backgroundColor(color){
-    document.getElementById("calcBody").style.backgroundColor = color;
-
-}
-
 function calculator(clicked) {
     var answerValue = document.getElementById("answer").textContent;
-    console.error(shouldClear)
 
     // kinda dumb code, used to clear the calculator after every new expression
     if(shouldClear && !isNaN(clicked)){
@@ -48,8 +42,6 @@ function calculator(clicked) {
         if(clicked ==="="){
 
             try {
-                console.error("equal sign just clicked");
-                console.error(!isNaN(clicked))
                 shouldClear = true;
 
                 document.getElementById("toptext").textContent= answerValue + " =" ;
