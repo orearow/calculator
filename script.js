@@ -1,4 +1,8 @@
 var shouldClear = false;
+var scale = 'scale(.5)';
+document.body.style.webkitTransform =  scale;    // Chrome, Opera, Safari
+document.body.style.msTransform =   scale;       // IE 9
+document.body.style.transform = scale;
 
 function calculator(clicked) {
     var answerValue = document.getElementById("answer").textContent;
