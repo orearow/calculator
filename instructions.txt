@@ -1,0 +1,5 @@
+https://orearow.github.io/calculator/
+
+I tested my calculator in chrome edge and opera 
+
+to deploy my calculator unzip the file and store every file inside of a folder. Open the index.html inside with any browser
